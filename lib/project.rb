@@ -5,4 +5,9 @@ class Project
     @title = title
   end
 
+  def back_project
+    back_project = self.new
+    back_project
+  end
+
 end
